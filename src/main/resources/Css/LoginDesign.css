@@ -1,0 +1,72 @@
+/* Nền chuyển sắc xanh nhạt - pastel dịu */
+.gradient {
+    -fx-background-color: linear-gradient(to bottom right, #a8edea, #fed6e3);
+}
+
+/* Form trắng nổi nhẹ với bóng mờ */
+.white-form {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 12px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.05), 10, 0, 0, 5);
+}
+
+/* Tiêu đề có viền pastel xanh */
+.head-label {
+    -fx-border-color: #b2ebf2;
+    -fx-border-width: 0 0 0 4px;
+    -fx-padding: 0 0 0 10px;
+    -fx-font-size: 18px;
+    -fx-text-fill: #004d61;
+    -fx-font-weight: semi-bold;
+}
+
+/* Nút login nhẹ nhàng, ánh xanh trời */
+.login-btn {
+    -fx-background-color: linear-gradient(to bottom right, #89f7fe, #66a6ff);
+    -fx-background-radius: 10px;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(two-pass-box, rgba(0,0,0,0.1), 2, 0, 0, 1);
+}
+
+.login-btn:hover {
+    -fx-background-color: linear-gradient(to bottom right, #81e0f4, #5c9ddc);
+}
+
+/* Ô nhập dữ liệu đơn giản, thanh thoát */
+.textfield {
+    -fx-background-color: transparent;
+    -fx-border-color: #b2ebf2;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+
+    /* Chữ đậm hơn và màu rõ hơn */
+    -fx-text-fill: #222222; /* gần đen nhưng không quá gắt */
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+
+.textfield:focused {
+    -fx-border-color: #66a6ff;
+    -fx-border-width: 2px;
+}
+
+/* Nút tạo tài khoản trong suốt nhẹ */
+.create-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #66a6ff;
+    -fx-border-color: #66a6ff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.create-btn:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #3b5998;
+    -fx-border-color: transparent;
+}
